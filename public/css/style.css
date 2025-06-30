@@ -1,0 +1,628 @@
+
+/* registration  */
+
+.container2{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    
+    display: flex;
+    /* flex-direction: column; */border-top: none; border-left:none; border-right:none ; border-radius:30px;
+    justify-content: space-around;
+    align-items: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    }    
+    
+    .container2 h3{
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    }
+    
+    
+    
+    .form-group{
+    margin-top: 10px;
+    }
+    #short-head{
+        display: none;
+    }
+    .social-text{
+    padding: .7rem 0;
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: center;
+    }
+    
+    .form-elements {
+    max-width: 380px;
+    width: 100%;
+    min-width: 480px;
+    height: 55px;
+    background-color:transparent;
+    margin: 10px 0;
+    border-radius: 9px;
+    display: flex; /* Change to display: flex; */
+     justify-content: center; /* Add to center the elements */
+     align-items: center; /* Add to center the elements */
+     padding: 0.4rem;
+     border-bottom: 2px solid white;
+     margin-bottom: 10px;
+    
+    } 
+    
+     .button{
+    max-width: 280px;
+    width: 70%;
+    height: 55px;
+    margin: 10px 0;
+    border-radius: 55px;
+    padding: 0.4rem;
+    }
+    .button:hover{
+        background-color: green;
+    }
+    
+    .form-group i{
+    text-align: center;
+    line-height: 55px;
+    color:white;
+    font-size: 1.4rem;
+    
+    } 
+    .form-elements input{
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color:white;
+    height: 80%;
+    
+    
+    
+    }
+    .form-group input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #f0f0f0 ;
+    }
+    .form-group input::placeholder{
+    color:white;
+    font-weight: 500;
+    }
+    
+    .social-media{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .social-icon{
+    height: 46px;
+    width: 46px;
+    border: 2px solid white;
+    margin: 0 0.54rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+    text-decoration: none;
+    color:white;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    transition: 0.3s;
+    }
+    .social-icon:hover{
+    color: #4481eb;
+    border: 2px solid #4481eb;
+    }
+    .rowcontainer{
+    box-shadow: 1px 1px 30px 4px gray;
+    width: 90%;
+   
+    }
+    /* .container1 img{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    } */
+    
+    .underline {
+    border-bottom: 1px solid black; /* Adjust the color and thickness as needed */
+    display: inline-block; /* Ensures that the border is only as wide as the text */
+    }
+
+    .otp-input{
+      width: 200px;
+      height: 50px;
+      font-size: 30px;
+      gap: 10px;
+      margin-bottom: 10px;
+      margin-right: 5px;
+      background-color: transparent;
+      font-weight: 900;
+      border-radius: 20px;
+      color: white;
+  }
+    
+    .resend{
+        background-color: transparent;
+        border: none;
+        text-decoration: underline;
+        color: #19e408;
+    }
+    /* ---------------index-page------------- */
+    .sport-btn button{
+        width: 200px;
+        height: 40px;
+        border-radius: 30px;
+        border: none;
+    }
+    
+
+    /* --------------------header-------------------- */
+.navbar{
+    height: 61px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+}
+.nav-link{
+    font-size: 20px;
+font-weight: 500;
+color: black;
+
+}
+.nav-link:hover{
+    color:#007bff;
+    
+}
+.header-form{
+  border-top: none; border-left:none; border-right:none ; border-radius:30px;
+}
+.header-form input{
+ border:none;
+}
+.header-form input::placeholder{
+  color: black;
+}
+
+.header-form button{
+  border-radius: 50%;
+  border: none;
+}
+
+
+/* ----------------------main - sports --------------*/
+.sports{
+    
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 290px;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex: 0 0 auto; /* Prevent flex items from shrinking */
+  
+
+
+}
+
+
+.sports .img{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.sports a{
+    text-decoration: none;
+    color: white;
+  
+}
+
+.player_card{
+    
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  box-shadow: 0px 0px 9px 1px #e8d5d5;
+ 
+  width: 310px;
+  height: 350px;
+  margin-bottom: 10px;
+  margin-right: 54px;
+  margin-left: 54px;
+  flex: 0 0 auto; /* Prevent flex items from shrinking */
+
+
+}
+.player_card a {
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.player_img{
+  width: 150px;
+height: 150px;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+top: 0px;
+margin: auto;
+  margin-bottom: auto;
+margin-bottom: 10px;
+}
+
+
+/* ------------------football sectioin------------------- */
+/* .cb_main{
+    background: linear-gradient(#000, #0a104b); 
+   
+} */
+
+
+
+/* ----------------sports clubs--------------- */
+.clubs {
+    width: 350px;
+    height: 400px;
+   margin:5px;
+    flex: 0 0 auto; /* Prevent flex items from shrinking */
+    
+}
+
+.clubs a img:hover{
+  width: 240px;
+  height: 240px;
+}
+.club_img{
+    width: 80%;
+    height:80%;
+    background-color: #f0f0f0;
+    background-repeat: no-repeat;
+background-size: cover;
+border-radius: 30px;
+}
+
+.club_img img{
+  width:100%;
+  height: 100%;
+}
+
+/* ------------------------admin_pannel--------------------- */
+.dash-container{
+    height: 100vh;
+    position: fixed;
+    background-color: white;
+  } 
+   .dash{ 
+    min-width: 385px;
+    background-color: #1a2d53;
+  }
+  .dash-head{
+    height: 100px;
+    font-size: 38px;
+    font-weight: 800;
+    color: black;
+    background: white;
+    display: flex;
+    align-items: center;
+
+  }
+  .content{
+    width: 100%;
+    height: 65px;
+    background-color:#1a2d53;
+    font-size: 30px;
+ 
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .dummy{
+    width: 100%;
+    height: 30px;
+    background-color: #1a2d53;
+    font-size: 30px;
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .content_add{
+    border-radius: 50px 0px 0px 50px;
+    background-color:white;
+    color:black;
+  }
+  .content .fas{
+    margin-right: 20px;
+    margin-left: 25px;
+  }
+  
+  .sport{
+    position: absolute;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    min-width: 450px;
+    overflow: scroll;
+    background-color: white;
+    width: 80%;
+  }
+  
+  #sports-space .fa-times{
+    
+    font-size: 25px;
+  margin-right: 30px;
+  margin-top: 30px;
+  float: right;
+  }
+  #users-space .fa-times{
+    
+    font-size: 25px;
+  margin-right: 15px;
+  margin-top: 30px;
+  float: right;
+  }
+  
+  #close-sports{
+    position: absolute;
+    right: 0;
+  }
+  #sports-space .fa-times{
+    
+    font-size: 25px;
+  margin-right: 30px;
+  margin-top: 30px;
+  float: right;
+  }
+  
+  .border-table{
+    border: 2px solid black;
+    
+    
+  }
+  
+  th, td{
+    margin-left: 20px;
+  } 
+  .sports_area{
+    position: absolute;
+    background: red;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 100vh;
+  }
+  #close_sports_add{
+    float: right;
+    font-size: 25px;
+    margin: 5px;
+    color: white;
+
+
+  }
+
+  .sports_insert{
+    width: 80%;
+    height: 100vh;
+    background:transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .sports_input{
+    width: 390px;
+    height: 45px;
+    border-bottom-color: 2px white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+    color:white;
+    background-color: transparent;
+    margin-bottom: 10px;
+  }
+  .sports_input[type="file"] {
+    background-color: inherit; /* Ensure background color is inherited */
+    border: none; /* Remove border if any */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Set cursor to pointer */
+}
+
+.sports_input[type="file"]:focus {
+    background-color: inherit; /* Maintain background color on focus */
+    outline: none; /* Ensure no outline on focus */
+    box-shadow: none; /* Remove any box shadow on focus */
+}
+
+
+/* -------------account--------------- */
+
+
+
+.account_input{
+  width:100%;
+  height: 45px;
+  border-bottom-color: 2px white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  
+  font-size: 25px;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+
+.pform input::placeholder{
+  color: black;
+  
+}
+#account{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: -1800px;
+  transition: right 0.4s ease;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+
+
+
+
+
+
+
+
+/* -------------------club_event display------------- */
+
+.club_event{
+  width: 55%;
+height: 90%;
+background: white;
+overflow: scroll;
+/* display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;*/
+
+padding-top: 20px; 
+}
+
+.event{
+  width: 500px; 
+  height:600px; 
+  background:red; margin:auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 15px 1px #928e8e;
+  
+}
+.event_form{
+  display: flex;flex-direction: column; padding: 20px; height: 100%; justify-content: center; background: yellow; display:none;
+}
+.event_form_view{
+  display: block;
+  width: 100%;
+ padding-top: 100px;
+  padding-right: 0px;
+  padding-left: 0px;
+  flex-direction: column;
+
+
+background: rgba(0, 0, 0, 0.75);
+}
+  @media (max-width: 455px) {
+    .sportss-box {
+      width: 100%;
+      min-width: 100%;
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+    .sportss_add form{
+      height: 100vh;
+    }
+    #users-space .container table{
+      width: 100%;
+    }
+    #account{
+      width: 100%;
+      
+    }
+  }
+ 
+  
+@media(max-width: 475px){
+    .form form{
+        width: 100%;
+        /* max-width: 455px;
+        min-width: 455px;
+        margin-left: 20px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .form-elements {
+       
+        min-width: 380px;
+        height: 40px;
+       }     
+
+    .container2 h3{
+        display: none;
+    }
+    .container2{
+        display: flex;
+        justify-content: center;
+    }
+    #short-head{
+        display: block;
+        color: white;
+        font-weight: 900;
+    }
+    
+    .sports{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 5px;
+        /* background-image: url('../images/dddd.webp'); */
+        
+    }
+    .sports_insert{
+      margin-right: 25px;
+    }
+    .sport{
+      min-width: 450px;
+    }
+    
+    .otp-input{
+      width: 40px;
+      /* height: 40px; */
+      font-size: 20px;
+      gap: 10px;
+      margin-bottom: 10px;
+      margin-right: 5px;
+      border-radius: none;
+      color:white;
+  }
+  
+    
+}
