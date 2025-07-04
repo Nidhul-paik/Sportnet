@@ -124,7 +124,7 @@ th {
                 <div class="dummy " ><i></i></div>
             </div>
         </div>
-        <h1 class="text-center" style="position: absolute;font-size: 225px;top: 300px; margin-left: 450px; width:80%; color:gray;">Admin Pannel</h1>
+        <h1 class="text-center" style="position: absolute;font-size: 225px;top: 300px; margin-left: 450px; width:80%; color:gray;">Admin Panel</h1>
 
         <!-- -------------------sports-space --------------->
 
